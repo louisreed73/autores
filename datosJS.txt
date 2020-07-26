@@ -1,4 +1,0 @@
-public/js/index.js
-public/js/indice1.js
-public/js/indice2.js
-public/js/indice3.js
