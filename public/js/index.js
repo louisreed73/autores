@@ -5,7 +5,8 @@
 
 const {log:l}=console;
 
-
+let pepe="23";
+let ana="46523";
 
 
 
