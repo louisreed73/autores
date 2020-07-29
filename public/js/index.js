@@ -5,8 +5,33 @@
 
 const {log:l}=console;
 
-let pepes="23";
-let anas="46523";
+function Person(name,edad) {
+    this.name=name;
+    this.edad=edad;
+}
+
+
+let luis=new Person("luis",47);
+
+function Persona(c) {
+    this.ciudad=c
+
+}
+
+
+Object.assign(Person.prototype,{
+    getName() {
+        return this.name
+    }
+})
+
+
+l(luis)
+
+// Object.appendChain(luis,new Persona("Madrid"))
+
+l(luis.getName())
+
 
 
 
