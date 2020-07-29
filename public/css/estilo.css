@@ -29,6 +29,10 @@ h1,h2 {
     text-decoration: underline solid white;
 }
 
+p,span {
+    font-size: 1.34rem;
+}
+
 .blue {
     background: rgb(9, 85, 116);
 }
